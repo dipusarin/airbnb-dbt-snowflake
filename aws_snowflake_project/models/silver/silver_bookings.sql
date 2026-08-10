@@ -4,7 +4,9 @@ select
     BOOKING_ID,
     LISTING_ID,
     BOOKING_DATE,
-    {{ multiply('NIGHTS_BOOKED','BOOKING_AMOUNT')}} + CLEANING_FEE + SERVICE_FEE as total_booking_amount,
+    {{ multiply('NIGHTS_BOOKED','BOOKING_AMOUNT')}}  as total_booking_amount,
+    SERVICE_FEE,
+    CLEANING_FEE,
     BOOKING_STATUS,
     CREATED_AT
 

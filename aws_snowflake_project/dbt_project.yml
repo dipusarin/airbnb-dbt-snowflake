@@ -40,4 +40,7 @@ models:
       +schema: SILVER
     gold:
       +materialized: table
-      +scehma: GOLD  
+      +schema: GOLD  
+      ephemeral:
+        +materialized: ephemeral
+        
