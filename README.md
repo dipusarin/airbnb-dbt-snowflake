@@ -10,17 +10,8 @@ from raw data to analytics-ready Gold models.
 
 ## Architecture
 
-AWS S3
-    ↓
-Snowflake Staging
-    ↓
-Bronze
-    ↓
-Silver
-    ↓
-Gold
-    ↓
-Analytics / BI
+AWS S3 &rarr; Snowflake Staging &rarr ;Bronze &rarr; Silver &rarr; Gold
+    
 
 ## Technology Stack
 
